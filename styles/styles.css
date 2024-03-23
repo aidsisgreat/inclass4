@@ -1,11 +1,8 @@
-/*
-Alby Mathews Bruse
-8980406
-*/
+/* Name:Adithyan.Jyothish.Nair student number:8981148*/
 
 body {
     font: 12px Arial;
-    background-color: hsla(54, 100%, 55%,1);
+    background-color: rgb(129, 201, 202);
     width: 85vw;
     border: 4px solid black;
     margin: auto;
@@ -16,35 +13,16 @@ h1{
     font-size: 50px;
 }
 
-#listheading {
-    color: #f00;
-    font-size: 0.8rem;
-
-}
 main {
     float: left;
     width: 66%;
-    background-color: hsl(34, 78%, 91%);
+    background-color: hsl(89, 100%, 85%);
 }
 aside{
     float: right;
-    width: 30%;
-    background-color: hsl(180, 100%, 50%);
+    width: 380px;
+    background-color: hsl(311, 92%, 15%);
     padding-bottom: 800px;
-}
-
-.structural {
-    margin: auto;
-    padding: 10px;
-    border: 2px black solid;
-}
-
-#para1 {
-    color: rgb(0, 0, 255);
-}
-
-#para2 {
-    color: rgb(0, 128, 0);
 }
 
 header {
@@ -55,10 +33,14 @@ footer {
     background-color: hsl(0, 50%, 47%);
     clear: both;
 }
-
+.structural {
+    margin: auto;
+    padding: 10px;
+    border: 5px rgb(118, 117, 117) solid;
+}
 a:hover {
     text-decoration: none;
-    color: #f0f;
+    color: rgb(238, 132, 19);
 }
 
 footer p {
@@ -73,6 +55,17 @@ aside li{
     line-height: 1.5rem;
     color: rgba(165, 42, 42, 0.871);   
 }
+#1unique {
+    color: rgb(0, 255, 13);
+}
+
+#2unique {
+    color: rgb(128, 0, 115);
+}
+
+#footerp{
+    color: rgb(238, 85, 85);
+}
 
 nav li{
     display: inline;
@@ -85,7 +78,7 @@ nav a{
     color: indigo;
     background-color: cornsilk;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2em;
 }
 
 nav a:hover{
@@ -95,7 +88,7 @@ nav a:hover{
 }
 
 form{
-    border: 5px dashed rebeccapurple;
+    border: 5px dashed rgb(255, 119, 0);
     padding: 5px;
 }
 
