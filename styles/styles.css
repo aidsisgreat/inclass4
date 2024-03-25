@@ -1,28 +1,30 @@
 /* Name:Adithyan.Jyothish.Nair student number:8981148*/
+html {
+    font: 20px Arial;
+}
+
 
 body {
-    font: 12px Arial;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(129, 201, 202);
     width: 85vw;
-    border: 4px solid black;
+    border: 0.2em solid black;
     margin: auto;
 }
 
 h1{
     color: blue; 
-    font-size: 50px;
+    font-size: 2.5rem;
 }
 
 main {
-    float: left;
-    width: 66%;
+    flex: 2 1 70%;
     background-color: hsl(89, 100%, 85%);
 }
 aside{
-    float: right;
-    width: 380px;
+    flex: 1 1 30%;
     background-color: hsl(311, 92%, 15%);
-    padding-bottom: 800px;
 }
 
 header {
@@ -31,12 +33,11 @@ header {
 
 footer {
     background-color: hsl(0, 50%, 47%);
-    clear: both;
 }
 .structural {
-    margin: auto;
-    padding: 10px;
-    border: 5px rgb(118, 117, 117) solid;
+    margin: 1rem;
+    padding: 0.5em;
+    border: 0.25em rgb(118, 117, 117) solid;
 }
 a:hover {
     text-decoration: none;
@@ -72,24 +73,24 @@ nav li{
     list-style: none;
 }
 
-nav a{
-    border: indigo 2px solid;
-    padding: 2px;
+nav li a{
+    border: indigo 0.2em solid;
+    padding: 1em;
     color: indigo;
     background-color: cornsilk;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 nav a:hover{
-    border: cornsilk 2px solid;
+    border: cornsilk 0.1em solid;
     color: cornsilk;
     background-color: indigo;
 }
 
 form{
-    border: 5px dashed rgb(255, 119, 0);
-    padding: 5px;
+    border: 0.25em dashed rgb(255, 119, 0);
+    padding: 0.25em;
 }
 
 input[type=text], 
@@ -121,4 +122,43 @@ textarea{
 
 fieldset{
     border: none;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+figure{
+    border: 2px black solid;
+}
+
+figure img{
+    height: 80%;
+    width: 80%;
+}
+
+@media only screen and (max-width:600px){
+    html{
+        font-size: 10px;
+    }
+
+    section{
+        flex-wrap: wrap;
+    }
+
+    #gallery{
+        grid-template-columns: 1fr;
+    }
+
+    
+
 }
